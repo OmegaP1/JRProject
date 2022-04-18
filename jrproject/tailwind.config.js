@@ -6,9 +6,6 @@ module.exports = {
       button_hover: "#506886",
     },
     extend: {
-      animation: {
-        "spin-slow": "wiggle 3s linear infinite",
-      },
       keyframes: {
         wiggle: {
           "0%": { transform: "rotate(0deg)" },

@@ -4,7 +4,7 @@ function Button(props) {
   return (
     <div class='flex justify-center m-6 opacity-100'>
       <a>
-        <button class='bg-button hover:bg-button_hover text-white font-bold py-4 px-20 rounded-xl '>{props.Title} </button>
+        <button class='bg-[#324152] hover:bg-button_hover text-white font-bold py-4 px-20 rounded-xl '>{props.Title} </button>
       </a>
     </div>
   );

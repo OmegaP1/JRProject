@@ -1,12 +1,11 @@
 import React from "react";
 import "./loginPage.css";
-import Canva from "../../Components/Canva.js";
-import Button from "../../Components/Button.js";
+import Card from "../../Components/Card.js";
 
 export default function LoginPage() {
   return (
     <div class='justify-self-center'>
-      <Canva Title='ola' />
+      <Card Title='ola' />
     </div>
   );
 }
